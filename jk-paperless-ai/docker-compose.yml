@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: clusterzx/paperless-ai:v3.0.9
+    image: clusterzx/paperless-ai:latest
     restart: on-failure
     environment:
       PUID: "1000"
